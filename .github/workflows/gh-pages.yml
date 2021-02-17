@@ -7,15 +7,15 @@ on:
     branches: [ master ]
     paths:
       - .github/workflows/gh-pages.yml
-      - package.json
-      - yarn.lock
-      - gatsby-config.js
-      - gatsby-node.js
-      - assets/*.svg
-      - src/**.js
-      - src/**.jsx
-      - src/**.scss
-      - src/**.json
+      - running/package.json
+      - running/yarn.lock
+      - running/gatsby-config.js
+      - running/gatsby-node.js
+      - running/assets/*.svg
+      - running/src/**.js
+      - running/src/**.jsx
+      - running/src/**.scss
+      - running/src/**.json
 
   schedule:
     - cron: "5 0 * * *"
