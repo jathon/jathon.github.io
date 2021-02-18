@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/running`, // Change to `/running_page` when running on github pages
+  pathPrefix: `/running_page`, // Change to `/running_page` when running on github pages
   siteMetadata: {
     title: 'Running page',
     siteUrl: 'https://jathon.github.io/running',
